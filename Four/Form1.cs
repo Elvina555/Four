@@ -64,7 +64,7 @@ namespace Four
 
                     if (CheckWin(r, col))
                     {
-                        MessageBox.Show($"Player {currentPlayer} wins!");
+                        MessageBox.Show($"Игрок {currentPlayer} побеждает!");
                         ResetGame();
                         return;
                     }
