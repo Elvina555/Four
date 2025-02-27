@@ -13,8 +13,6 @@ namespace Four
     public partial class Form1 : Form
     {
         private const int Rows = 6;
-
-
         private const int Cols = 7;
         private Button[,] buttons;
         private char[,] board;
@@ -51,6 +49,8 @@ namespace Four
         {
             Button button = (Button)sender;
             var (row, col) = (Tuple<int, int>)button.Tag;
+
+
 
             for (int r = Rows - 1; r >= 0; r--)
             {
