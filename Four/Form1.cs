@@ -37,8 +37,10 @@ namespace Four
                         Size = new System.Drawing.Size(50, 50),
                         Location = new System.Drawing.Point(col * 55, row * 55),
                         Tag = new Tuple<int, int>(row, col)
+                        
                     };
                     buttons[row, col].Click += button1_Click;
+                    buttons[row, col].ForeColor = Color.Green;
                     this.Controls.Add(buttons[row, col]);
                     board[row, col] = ' ';
                 }
