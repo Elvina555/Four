@@ -13,6 +13,8 @@ namespace Four
     public partial class Form1 : Form
     {
         private const int Rows = 6;
+
+
         private const int Cols = 7;
         private Button[,] buttons;
         private char[,] board;
